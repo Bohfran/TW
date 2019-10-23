@@ -34,8 +34,8 @@
                     <div class="head-text-child-2"></div>
                 </div>
             </div>
-            <div class="logo wow slideInLeft" data-wow-delay="0.2s" >
-                <img src="img/tw_logo.png" alt="">
+            <div class="logo wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="10" >
+                <img data-src="img/tw_logo.png" alt="">
             </div>
             
         </div>
@@ -66,23 +66,23 @@
 
         
         <div class="icons">
-            <div class="ico">
+            <div class="ico wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="10">
                 <div class="ico_img">
-                    <img src="img/rotor.png">
+                    <img data-src="img/rotor.png">
                  </div>
                 <p>Ротор<br> турбіни</p>
             </div>
             <p class="znak">+</p>
-            <div class="ico">
+            <div class="ico wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s" data-wow-offset="10">
                 <div class="ico_img">
-                    <img src="img/form.png">
+                    <img data-src="img/form.png">
                 </div>
                 <p>Форма<br> турбіни</p>
             </div>
             <p class="znak">=</p>
-            <div class="ico">
+            <div class="ico wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.8s" data-wow-offset="10">
                 <div class="ico_img">
-                    <img src="img/grafzn.png">
+                    <img data-src="img/grafzn.png">
                 </div>
                 <p>Графічний<br> знак</p>
             </div>
@@ -109,8 +109,8 @@
         </div>
 
         <div class="anatom-block">
-            <div class="anatom-img">
-                <img src="img/anatom.png">
+            <div class="anatom-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                <img data-src="img/anatom.png">
             </div>
 
             <div class="anatom-block-text">
@@ -156,15 +156,15 @@
         <div class="text">
             <div class="text-one">
                 <div class="text-one-child-1">
-                    <img src="img/text-1.png">
+                    <img data-src="img/text-1.png">
                 </div>
                 <div class="text-one-child-2"></div>
             </div>
 
             <div class="text-two">
                 <div class="text-two-child-1">
-                        <img src="img/text-2.png">
-                        <img src="img/text-3.png">
+                        <img data-src="img/text-2.png">
+                        <img data-src="img/text-3.png">
                 </div>
                 <div class="text-two-child-2"></div>
             </div>
@@ -189,8 +189,8 @@
             </div>
         </div>
 
-        <div class="firm-img">
-            <img src="img/color.png" >
+        <div class="firm-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <img data-src="img/color.png" >
         </div>
 
 
@@ -222,26 +222,26 @@
             </div>
 
             <div class="firm-img-block">
-                <div class="firm-images">
-                    <img src="img/firm1.png">
+                <div class="firm-images wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <img data-src="img/firm1.png">
                     <p>Вертикальна компоновка<br> 
                         логотипу на білому фоні</p>
                 </div>
 
-                <div class="firm-images">
-                    <img src="img/firm2.png">
+                <div class="firm-images wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <img data-src="img/firm2.png">
                     <p>Горизонтальна  компоновка<br> 
                         логотипу на білому фоні</p>
                 </div>
 
-                <div class="firm-images">
-                    <img src="img/firm3.png">
+                <div class="firm-images wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <img data-src="img/firm3.png">
                     <p>Логотип на фірмовому<br> 
                         градієнті </p>
                 </div>
 
-                <div class="firm-images">
-                    <img src="img/firm4.png">
+                <div class="firm-images wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <img data-src="img/firm4.png">
                     <p>Логотип на фірмовому<br> 
                         темному фоні</p>
                 </div>
@@ -267,17 +267,17 @@
 
 
         <div class="real-images">
-            <div class="rel-img">
-                <img src="img/foot1.png">
+            <div class="rel-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" >
+                <img data-src="img/foot1.png">
             </div>
-            <div class="rel-img">
-                <img src="img/foot2.png">
+            <div class="rel-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" >
+                <img data-src="img/foot2.png">
             </div>
-            <div class="rel-img">
-                <img src="img/foot3.png">
+            <div class="rel-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" >
+                <img data-src="img/foot3.png">
             </div>
-            <div class="rel-img">
-                <img src="img/foot4.png">
+            <div class="rel-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s" >
+                <img data-src="img/foot4.png">
             </div>
 
         </div>
@@ -297,11 +297,14 @@
 
 
 
-
+<script src="js/main3.js"></script>
 <script src="js/wow.min.js"></script>
 
 
 <script>
+
+            new WOW().init();
+            
             wow = new WOW(
                   {
                   boxClass:     'head-text-anime', // default

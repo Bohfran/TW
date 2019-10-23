@@ -3422,6 +3422,111 @@ body{
     }
 }
 
+
+
+@media screen and (max-width: 527px){
+    .firm-zag{
+        position: absolute;
+        z-index: 200;
+        font-size: 40px;
+        padding-top: 200px;
+        text-transform: uppercase;
+        
+    }
+
+      .firm-block{
+        position: relative;
+        top: 300px;
+        display: flex;
+        flex-direction: column;
+
+        
+
+    }
+
+    .firm-text{
+        width: 100%;
+        font-size: 20px;
+    }
+    .firm-img-block{
+        width: 90%;
+    }
+
+    .firm-text-1 {
+        height: 150px;
+
+   }
+
+   .firm-text-2 {
+        height: 120px;
+
+    }
+
+    .firm-text-3 {
+        height: 260px;
+
+    }   
+
+    .firm-images{
+        width: 50%;
+        font-size: 15px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 450px){
+    .firm-zag{
+        position: absolute;
+        z-index: 200;
+        font-size: 40px;
+        padding-top: 200px;
+        text-transform: uppercase;
+        
+    }
+
+      .firm-block{
+        position: relative;
+        top: 300px;
+        display: flex;
+        flex-direction: column;
+
+        
+
+    }
+
+    .firm-text{
+        width: 100%;
+        font-size: 20px;
+    }
+    .firm-img-block{
+        width: 90%;
+    }
+
+    .firm-text-1 {
+        height: 170px;
+   }
+
+   .firm-text-2 {
+        height: 150px;
+
+    }
+
+    .firm-text-3 {
+        height: 290px;
+
+    }   
+
+    .firm-images{
+        width: 50%;
+        font-size: 15px;
+
+    }
+}
+
+
+
 @media screen and (max-width: 400px){
     .firm-rep-zag{
         position: absolute;
@@ -3497,7 +3602,7 @@ body{
     .rel-img{
         width: 45%;
         margin-top: 130px;
-        box-shadow: 0 3px 20px rgba(0,0,0, .25);
+        /* box-shadow: 0 3px 20px rgba(0,0,0, .25); */
     }
 
     .rel-img img{
@@ -3555,7 +3660,7 @@ body{
     .rel-img{
         width: 45%;
         margin-top: 70px;
-        box-shadow: 0 3px 20px rgba(0,0,0, .25);
+        /* box-shadow: 0 3px 20px rgba(0,0,0, .25); */
     }
 
     .real-zag{
@@ -3632,7 +3737,7 @@ body{
     .rel-img{
         width: 45%;
         margin-top: 40px;
-        box-shadow: 0 3px 20px rgba(0,0,0, .25);
+        /* box-shadow: 0 3px 20px rgba(0,0,0, .25); */
     }
 }
 
